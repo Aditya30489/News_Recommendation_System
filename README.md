@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+NewsScraping
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our main motivation behind this project was to be able to have a deep dive into fields like data scraping, natural language processing and deep learning models.
 
-## Available Scripts
+NEWS SCRAPING USING NewsAPI and Spyder
+Using BERT and K-NN Algo to give user recommendations
+  
+In this project we have implemented a model which inculcates various applications of Artificial Intelligence into one. It consists of web scraping and subsequent data collection using Crawlers and NewsAPI’s, Transformer model such as BERT, clustering algorithms such as K-means and finally a frontend framework using ReactJS to recommend news articles to the end user.
 
-In the project directory, you can run:
+Key Pointers
+A Recommender System basically analyzes reader’s past article history and reading behaviour to suggest any future articles they might be inclined to read .
+Utilising the power of Scrapy and NewsAPI to extract news articles from famous agencies such as Hindustan Times , Reuters, BBC and CNN we preprocessed the extracted data which was then finally passed into the BERT model.
+A similarity measure was then used to find the cosine similarity between the outputs of the BERT model , and then concluded by by applying clustering techniques to recommend articles.
 
-### `npm start`
+I have created inline links all across the README Doc for anyone looking to understand the code with clearer comprehension.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+How to understand the flow of the code?
+Through the projects life cycle, we used ReactJS, Google Colab and Jupyter Notebook for the work. ReactJS for Showing news and reading news, Google Colab for NewsAPI, and Jupyter for BERT and KNN implementation. Some things to understand are:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+First we used ReactJs for front-end part which includes login , SignUp and Showing news and for collecting history of user.
 
-### `npm test`
+Then on Google Colab, we used NewsAPI and FeedParser to take out news articles in masses, afterwhich we used Pandas Libraries to store all the articles with the necessary documentation into CSV files.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All the data was then stored into CSV files, and then we headed to Jupyter Notebook where implemented BERT Algo on it, which provided us the cosine similarities between articles.
 
-### `npm run build`
+We transported the cosine similarities into a KNN algo, but also had an alternate manual approach, the google colab code for which is attached to the repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The code is straight and simple, and is one of the million ways we can use BERT as a tangible application in todays world.
