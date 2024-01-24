@@ -1,0 +1,171 @@
+/* 
+
+
+
+
+.one {
+    text-align: center;
+    }
+    
+    .icons{
+        text-align: center;
+    }
+    
+    .details{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .list-group {
+        padding: auto;
+        margin-top: 50px;
+      }
+     
+      
+    
+    
+    @media screen and (max-width: 500px) {
+        .shd{
+            text-align: center;
+            width: 100%;
+            display:block;
+            padding: auto;
+        }
+        .lis{
+            width:100%;
+        }
+      }
+      @media screen and (min-width: 920px) {
+        .shd{
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            position:relative;
+            width: auto;
+            height: 100px;
+        }
+      }
+      @media screen and (max-width: 920px) {
+        .shd{
+            text-align: center;
+            width: 100%;
+        }
+      }
+    h1 {
+        color: orange;
+    }
+    
+    .q{
+        align-items: center;
+    }
+    .lis{
+        text-align: center;
+        width:50%;
+        
+    }
+    .zoom {
+        transition: transform .2s; /* Animation 
+        margin: 0 auto;
+        
+        
+      
+      
+      .zoom:hover {
+        transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        
+
+        /* .main{
+          
+            background: linear-gradient(to bottom, rgb(255, 255, 255), #ee724d8b);
+          } */
+  
+          .one {
+            text-align: center;
+            }
+            
+            .icons{
+                text-align: center;
+            }
+            
+            .details{
+                font-family: 'Playfair Display', serif;
+            }
+            
+            .list-group {
+                padding: auto;
+                margin-top: 50px;
+              }
+
+            .font{
+              font-family:Georgia, 'Times New Roman', Times, serif;
+              text-align: center;
+              text-transform:uppercase;
+            }
+             
+              
+            
+            
+            @media screen and (max-width: 500px) {
+                .shd{
+                    text-align: center;
+                    width: 100%;
+                    display:block;
+                    padding: auto;
+                }
+                .lis{
+                    width:100%;
+                }
+                .main{
+                  width:100%;
+                }
+              }
+              @media screen and (min-width: 920px) {
+                .main{
+                  width:75%;
+                }
+                
+                .shd{
+                    width:75%;
+                    margin:auto;
+                    text-align: center;
+                    display: flex;
+                    justify-content: space-around;
+                    position:relative;
+                    height: 100px;
+                }
+                .q{
+                  width:50%;
+                  margin:auto;
+                }
+              }
+              @media screen and (max-width: 920px) {
+                .main{
+                  width:100%;
+                }
+                .shd{
+                    text-align: center;
+                    width: 100%;
+                }
+              }
+            h1 {
+                color: orange;
+            }
+            
+            .q{
+                align-items: center;
+            }
+            .lis{
+                text-align: center;
+                width:75%;
+                
+            }
+            .zoom {
+                transition: transform .2s; /* Animation */
+                margin: 0 auto;
+                
+                
+              }
+              
+              .zoom:hover {
+                transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                
+              }        
